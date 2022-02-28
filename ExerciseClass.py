@@ -19,9 +19,7 @@ class Customer(Person):
         self.__mail = mail
 
     def print_person(self):
-        print(self.__name)
-        print(self.__address)
-        print(self.__telephone)
+        Person.print_person(self)
         print(self.__cust_num)
         print(self.__mail)
         
